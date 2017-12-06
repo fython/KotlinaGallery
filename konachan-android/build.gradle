@@ -8,7 +8,7 @@ android {
     buildToolsVersion "27.0.0"
 
     defaultConfig {
-        applicationId "moe.feng.moe.feng.konachan"
+        applicationId "moe.feng.konachan"
         minSdkVersion 23
         targetSdkVersion 27
         versionCode 1

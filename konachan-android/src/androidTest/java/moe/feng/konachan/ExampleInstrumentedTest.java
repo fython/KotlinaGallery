@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("moe.feng.moe.feng.konachan", appContext.getPackageName());
+        assertEquals("moe.feng.konachan", appContext.getPackageName());
     }
 }
