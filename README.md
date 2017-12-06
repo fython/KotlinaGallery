@@ -8,7 +8,9 @@ KotlinaGallery
 
 ## 项目介绍
 
-本项目借助 [Konachan API](https://konachan.net/help/api) 制作一个简单的 ACG 壁纸图库。
+本项目使用 Kotlin 1.2 语言制作一个简单的 ACG 壁纸图库，其公共代码部分可由多个平台共用。
+
+数据拉取自 [Konachan API](https://konachan.net/help/api)，该网站可能存在 NSFW 内容，建议使用时仅显示 `rating:s` 标签的图片。
 
 Android 版已完成简单的最新壁纸列表演示，JS 模块尚未投入使用。
 
