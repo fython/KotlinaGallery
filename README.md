@@ -40,7 +40,8 @@ Android 版已完成简单的最新壁纸列表演示，JS 模块尚未投入使
 
 ## 编译环境
 
-- Android Studio 3.0 + Kotlin 1.2.0 Plugin（Android Gradle Plugin 的缘故，尚不支持 IntelliJ IDEA，有待官方解决）
+- Android Studio 3.0+ / IntelliJ IDEA 2017.3+
+- Kotlin 1.2.0+
 - Gradle 4.3
 - JDK 1.8+
 
