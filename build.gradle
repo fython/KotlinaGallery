@@ -1,0 +1,23 @@
+allprojects {
+    buildscript {
+        ext.kotlin_version = '1.2.0'
+        ext.serialization_version = '0.2'
+        ext.anko_version = '0.10.1'
+
+        repositories {
+            maven { url "https://kotlin.bintray.com/kotlinx" }
+            google()
+            jcenter()
+        }
+        dependencies {
+            classpath "com.android.tools.build:gradle:3.0.0"
+            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+            classpath "org.jetbrains.kotlinx:kotlinx-gradle-serialization-plugin:$serialization_version"
+        }
+    }
+    repositories {
+        maven { url "https://kotlin.bintray.com/kotlinx" }
+        google()
+        jcenter()
+    }
+}
