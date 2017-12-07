@@ -11,6 +11,10 @@ import kotlinx.serialization.*
 	@SerialName("creator_id") var creatorId: Int = 0
 	var body: String = ""
 
-}
+	companion object {
 
-val commentsListSerializer = Comment::class.serializer().list
+		val LIST_SERIALIZER = Comment::class.serializer().list
+
+	}
+
+}

@@ -51,6 +51,10 @@ import kotlin.math.max
 	fun getSamplePic() = Picture(sampleUrl, sampleWidth, sampleHeight, sampleFileSize)
 	fun getJpegPic() = Picture(jpegUrl, jpegWidth, jpegHeight, jpegFileSize)
 
-}
+	companion object {
 
-val postListSerializer: KSerializer<List<Post>> = Post::class.serializer().list
+		val LIST_SERIALIZER get() = Post::class.serializer().list
+
+	}
+
+}

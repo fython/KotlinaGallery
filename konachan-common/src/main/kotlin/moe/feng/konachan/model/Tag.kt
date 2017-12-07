@@ -15,8 +15,8 @@ import kotlinx.serialization.*
 		const val TYPE_ARTIST = 1
 		const val TYPE_COPYRIGHT = 3
 		const val TYPE_CHARACTER = 4
+
+		val LIST_SERIALIZER = Tag::class.serializer().list
 	}
 
 }
-
-val tagsListSerializer = Tag::class.serializer().list

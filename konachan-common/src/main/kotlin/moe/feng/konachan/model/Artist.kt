@@ -10,6 +10,10 @@ import kotlinx.serialization.*
 	@SerialName("group_id") var groupId: Int? = null
 	var urls: Array<String> = emptyArray()
 
-}
+	companion object {
 
-val artistsListSerializer = Artist::class.serializer().list
+		val LIST_SERIALIZER = Artist::class.serializer().list
+
+	}
+
+}
